@@ -1,5 +1,5 @@
 package com.chess.ui.components;
 
-public interface Board {
+public interface ChessBoard {
 
 }
