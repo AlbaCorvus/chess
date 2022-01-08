@@ -7,7 +7,7 @@ public class BoardGameLauncher {
 	
 	public static void main(String args[]){
 	
-		BoardGameFactory.getBoardGame(args[0] == null ? "default" : "default").play();
+		BoardGameFactory.getBoardGame(args == null ? "default" : "default").play();
 		
 	}
 	

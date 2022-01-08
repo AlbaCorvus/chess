@@ -11,7 +11,7 @@ public class DefaultBoardGame extends BoardGame	{
 
 	@Override
 	public void play() {
-		
+		System.out.println("Default Board Game Playing...");
 	}
 
 }
